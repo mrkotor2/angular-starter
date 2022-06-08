@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#outer
+{
+  background-color: #006699;
+  color: #fff;
+  height: 400px;
+  width: 600px;
+  margin: 0px auto;
+  padding: 5px;
+}
+#left
+{
+  background-color: #efefef;
+  color: #000;
+  height: 400px;
+  width: 48%;
+  float: left;
+}
+#right
+{
+  background-color: #efefef;
+  color: #000;
+  height: 400px;
+  width: 48%;
+  float: right;
+}
+
+body {
+  background-color: lightblue;
+  padding: 2em;
+  font-family: 'SansSerif', 'Arial';
+  color: black;
+}
+
+ul {
+  margin: 2em;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+ul li a {
+  font-size: large;
+}
+
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+//div {
+//  align-content: center;
+//}
+
+//html, body { height: 100%; }
+//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
